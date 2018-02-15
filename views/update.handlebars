@@ -1,0 +1,25 @@
+<h1>Update the workout below</h1>
+ <fieldset>
+     <legend>Add a new workout</legend>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+        &nbsp;
+        <label for="reps">Reps:</label>
+        <input type="text" id="reps" name="reps" />
+        &nbsp;
+        <label for="weight">Weight:</label>
+        <input type="text" id="weight" name="weight" />
+        <select id='lbs' name="lbs">
+            <option value="1">lbs</option>
+            <option value="0">kg</option>
+        </select>
+        &nbsp;
+        <label for="date">Date:</label>
+        <input type="text" id="date" name="date" />
+        <input type="hidden" >
+        &nbsp;
+        <input type="submit" id="submit" name="addNew" />
+    </form>
+ </fieldset>
+ <script src="update.js"></script>
